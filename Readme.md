@@ -1,7 +1,7 @@
 # Pennsylvania-Hydrology-ML-Streamflow-Forecasting
 
 ![Status: Completed](https://img.shields.io/badge/Status-Completed-success)
-[![View Report](https://img.shields.io/badge/View-Full%20Report-blue?style=for-the-badge&logo=github)](https://github.com/dustinlit/Pennsylvania-Hydrology-ML-Streamflow-Forecasting)
+[![View Report](https://img.shields.io/badge/View-Full%20Report-blue?style=for-the-badge&logo=github)](https://dustinlit.github.io/Pennsylvania-Hydrology-ML-Streamflow-Forecasting/)
 
 ---
 
