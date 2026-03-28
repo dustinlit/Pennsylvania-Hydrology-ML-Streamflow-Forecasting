@@ -3,6 +3,8 @@
 Author: Dustin Littlefield\
 Date: March 3, 2026\
 `Hydrology` `Machine Learning` `TerraClimate`
+<br>
+[GitHub Repository](https://github.com/dustinlit/Pennsylvania-Hydrology-ML-Streamflow-Forecasting)
 
 ## Introduction 
 As global temperatures increase due to increased concentrations of greenhouse gases, direct effects on the earth’s atmospheric systems are expected. According to Thomas G. Huntington (2010), as global temperatures increase, the hydrologic cycle will intensify causing alterations in the patterns of rainfall, evapotranspiration rates, and runoff rates. These changes will lead to greater variability in streamflow due to heavier rainfall events and extended drought periods. Ultimately affecting regional and seasonal water availability.  
