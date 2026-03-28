@@ -2,7 +2,7 @@
  
 Author: Dustin Littlefield\
 Date: March 3, 2026\
-`Hydrology` `Machine Learning`
+`Hydrology` `Machine Learning` `TerraClimate`
 
 ## Introduction 
 As global temperatures increase due to increased concentrations of greenhouse gases, direct effects on the earth’s atmospheric systems are expected. According to Thomas G. Huntington (2010), as global temperatures increase, the hydrologic cycle will intensify causing alterations in the patterns of rainfall, evapotranspiration rates, and runoff rates. These changes will lead to greater variability in streamflow due to heavier rainfall events and extended drought periods. Ultimately affecting regional and seasonal water availability.  
@@ -12,7 +12,6 @@ Water supplies are relied upon for urban use, agriculture, and are important for
 Random Forest forecasting, a machine learning algorithm, provides a proven accurate and reproducible method of prediction. This algorithm is appropriate for hydrologic modelling because it can capture the non-linear complex relationships between streamflow and climate related factors. In a 2024 study, Gaertner (2024) lists several reasons why the random forest algorithm is effective: (1) It is able to learn directly from the data without the need for time consuming physical modelling, (2) It is shown to be more computationally efficient than other algorithms, and (3) it has the ability to incorporate multiple climactic factors that influence streamflow. 
 
 As climate pressures grow, understanding how water moves across Pennsylvania becomes increasingly important for forecasting and planning. Due to the unique geographical makeup and expanse of Pennsylvania, in 2022, the Pennsylvania Department of Environmental Protection (n.d.) divided the state into 6 major watershed regions (Figure 4). The goal of these regions was to optimize water resource planning. Appalachian Mountains divide the runoff into three dominant watershed regions. The western portion of the state is the Ohio river watershed containing the Allegheny and Ohio rivers. Runoff from central Pennsylvania drains into the Susquehanna and Potomac watersheds, while the eastern portion of the state drains to the Delaware river. 
-
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
@@ -79,8 +78,6 @@ Tunable parameters for this model include:
 ### Forest Based Forecast Results 
 
 The spatial distribution of predicted streamflow for April of 2025 shows a clear increase trending from the south to the north (Figure 5). The Upper Susquehanna and Ohio River watersheds exhibit the highest predicted streamflow.  This is likely due to the delayed snowmelt in the northern regions compared to the south. In contrast, the Lower Susquehanna and Potomac regions in the south consistently show lower runoff amounts. The RMSE shows greatest variability in the Delaware watershed in the eastern portion of the state and the northern part of the Ohio river watershed. The predictions in these areas are less reliable, maybe due to variability in the degree and duration of the snowmelt. Low RMSE values in the southern watershed regions including the lower Susquehanna and Ohio river watersheds indicate that the model captures the relationship between climate factors and runoff response with more confidence. 
-
-Figure 5. ArcGIS Forest-Based forecast results for mean monthly streamflow in Pennsylvania. Predictions for April 2025 were modelled from monthly TerraClimate data (1958 – 2024) and are mapped with HUC-8 watershed regions in Pennsylvania to identify trends. Panels are: (1) April 2025 forecasted mean runoff, (2) Root Mean Square Error (RMSE) for predicted April 2025 mean runoff, and (3) Historical monthly mean runoff for April (1958 – 2024). 
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
