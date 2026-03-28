@@ -33,18 +33,18 @@ This project analyzes long‑term hydrologic change across Pennsylvania and buil
 - Pennsylvania HUC‑8 watershed boundaries (PA DEP)
 
 ## Methodology
-1. Trend Analysis
+### Trend Analysis
 - Bivariate z‑score and p‑value mapping of long‑term runoff trends
 - Identifies statistically significant increases or stability in streamflow
 - Magenta = stable but significant; light blue = strong increasing trends
 
-2. Spatiotemporal Correlation
+### Spatiotemporal Correlation
 - Time Series Cross‑Correlation between TMAX and Runoff (Q)
 - Negative correlations dominate, especially in southwestern PA
 - Indicates higher drought sensitivity as temperatures rise
 - Example from report: “The darker blue shades indicate that this region is more sensitive to rising temperatures.”
 
-3. Random Forest Forecasting
+### Random Forest Forecasting
 - Space‑Time Cube with monthly TerraClimate data
 - Hyperparameter tuning:
     - Tree Depth: 20
@@ -72,9 +72,9 @@ This project analyzes long‑term hydrologic change across Pennsylvania and buil
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Figure 5.</strong> ArcGIS Forest-Based forecast results for mean monthly streamflow in Pennsylvania. Predictions for April 2025 were modelled from monthly TerraClimate data (1958 – 2024) and are mapped with HUC-8 watershed regions in Pennsylvania to identify trends. Panels are: (1) April 2025 forecasted mean runoff, (2) Root Mean Square Error (RMSE) for predicted April 2025 mean runoff, and (3) Historical monthly mean runoff for April (1958 – 2024).<br>
+    <strong>Figure 2.</strong> ArcGIS Forest-Based forecast results for mean monthly streamflow in Pennsylvania. Predictions for April 2025 were modelled from monthly TerraClimate data (1958 – 2024) and are mapped with HUC-8 watershed regions in Pennsylvania to identify trends. Panels are: (1) April 2025 forecasted mean runoff, (2) Root Mean Square Error (RMSE) for predicted April 2025 mean runoff, and (3) Historical monthly mean runoff for April (1958 – 2024).<br>
     <em>Map Author: Dustin Littlefield PCS: NAD 1983 Pennsylvania North (Meters) Source: Watershed boundaries courtesy of the Pennsylvania Department of Environmental Protection (PADEP)</em> <br>
 
   </figcaption>
-  <img src="figure_5.jpg" width="500">
+  <img src="figure_5.jpg" width="400">
   </figure>
