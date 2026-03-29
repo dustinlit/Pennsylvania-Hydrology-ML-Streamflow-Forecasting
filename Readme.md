@@ -2,15 +2,13 @@
 
 ![Status: Completed](https://img.shields.io/badge/Status-Completed-success)
 [![View Report](https://img.shields.io/badge/View-Full%20Report-blue?style=for-the-badge&logo=github)](https://dustinlit.github.io/Pennsylvania-Hydrology-ML-Streamflow-Forecasting/)
+[![Repository](https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge&logo=github)](https://github.com/dustinlit/Pennsylvania-Hydrology-ML-Streamflow-Forecasting)
 
----
-
-**Author:** Dustin Littlefield
-
-**Project Type:** Hydrology and Climate Analysis
-
-**Tags:** `Hydrology` `Remote Sensing` `ArcGIS Pro` `Runoff Trends` `TerraClimate` `ArcGIS Space Time Cube` `Random Forest Forecasting`
-
+**Author:** Dustin Littlefield  
+**Portfolio:** https://github.com/dustinlit  
+**Project Type:** `Hydrology` `Climate Analysis` `Machine Learning`  
+**Technologies:** `ArcGIS Pro` `TerraClimate` `Space Time Cube` `Random Forest` `Python`  
+**Last Updated:** March 2026
 
 ## Overview
 This project analyzes long‑term hydrologic change across Pennsylvania and builds a machine‑learning–based forecast of monthly streamflow using TerraClimate data (1958–2024). The workflow integrates spatial statistics, time‑series analysis, and Random Forest forecasting to identify climate‑driven trends in runoff and evaluate regional flood and drought risk.
