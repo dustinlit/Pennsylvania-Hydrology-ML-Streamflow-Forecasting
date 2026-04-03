@@ -22,7 +22,7 @@ As climate pressures grow, understanding how water moves across Pennsylvania bec
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
     <strong>Figure 1.</strong> General watershed regions in Pennsylvania. <br>
-    <em>Map Author: Dustin Littlefield PCS: NAD 1983 Pennsylvania North (Meters) Source: Watershed boundaries courtesy of the Pennsylvania Department of Environmental Protection (PADEP) </em>
+    <em>Map Author: Dustin Littlefield PCS: NAD 1983 Pennsylvania North (Meters) <br> Source: Watershed boundaries courtesy of the Pennsylvania Department of <br> Environmental Protection (PADEP) </em>
   </figcaption>
   <img src="Figures/figure_1.jpg" width="500" alt="General watershed regions in Pennsylvania">
 </figure>
@@ -44,8 +44,8 @@ Pennsylvania. Z-scores indicate the strength of the change a region is undergoin
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Figure 2.</strong> Bivariate trend map of Pennsylvania HUC-8 watershed regions from 1958-2024 showing long-term runoff trends with each region’s p-value and z-score. <br>
-    <em>Map Author: Dustin Littlefield PCS: NAD 1983 Pennsylvania North (Meters) Source: Watershed boundaries courtesy of the Pennsylvania Department of Environmental Protection (PADEP)</em>
+    <strong>Figure 2.</strong> Bivariate trend map of Pennsylvania HUC-8 watershed regions from 1958-2024 <br> showing long-term runoff trends with each region’s p-value and z-score. <br>
+    <em>Map Author: Dustin Littlefield PCS: NAD 1983 Pennsylvania North (Meters) <br> Source: Watershed boundaries courtesy of the Pennsylvania Department of Environmental Protection (PADEP)</em>
   </figcaption>
   <img src="Figures/figure_2.jpg" width="500" alt="Unsupervised Classification of Atlanta Metropolis Region 1999 and 2021">
 </figure>
@@ -57,8 +57,8 @@ As temperatures rise, plants and soil lose more moisture through evapotranspirat
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Figure 3.</strong> Pennsylvania HUC-8 zones displaying Time Series Cross Correlation strongest negative correlation. Primary variable is runoff (Qrunoff) and secondary variable is monthly maximum temperature (TMAX). <br>
-    <em>Map Author: Dustin Littlefield PCS: NAD 1983 Pennsylvania North (Meters) Source: Watershed boundaries courtesy of the Pennsylvania Department of Environmental Protection (PADEP)</em>
+    <strong>Figure 3.</strong> Pennsylvania HUC-8 zones displaying Time Series Cross Correlation strongest negative correlation. <br> Primary variable is runoff (Qrunoff) and secondary variable is monthly maximum temperature (TMAX). <br>
+    <em>Map Author: Dustin Littlefield PCS: NAD 1983 Pennsylvania North (Meters) <br>Source: Watershed boundaries courtesy of the Pennsylvania Department of Environmental Protection (PADEP)</em>
   </figcaption>
   <img src="Figures/figure_3.jpg" width="500" alt="Unsupervised Classification of Atlanta Metropolis Region 1999 and 2021">
 </figure>
@@ -76,7 +76,7 @@ Tunable parameters for this model include:
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Figure 4.</strong> Hyperparameter tuning results for the Forest-Based Forecast model. Relevant parameters were tested with 50 trees for efficiency. Optimum results are determined by the smallest average Root Mean Square Error (RMSE) for: (a) maximum tree depth, (b) minimum leaf size (0 represents default), (c) percentage of training available per tree, and (d) number of trees. Vertical dashed lines indicate the optimum parameter value.
+    <strong>Figure 4.</strong> Hyperparameter tuning results for the Forest-Based Forecast model. Relevant parameters were tested <br> with 50 trees for efficiency. Optimum results are determined by the smallest average Root Mean Square Error (RMSE) <br> for: (a) maximum tree depth, (b) minimum leaf size (0 represents default), (c) percentage of training available per tree, <br> and (d) number of trees. Vertical dashed lines indicate the optimum parameter value.
   </figcaption>
   <img src="Figures/figure_4.jpg" width="550" alt="Unsupervised Classification of Atlanta Metropolis Region 1999 and 2021">
 </figure>
@@ -87,8 +87,8 @@ The spatial distribution of predicted streamflow for April of 2025 shows a clear
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Figure 5.</strong> ArcGIS Forest-Based forecast results for mean monthly streamflow in Pennsylvania. Predictions for April 2025 were modelled from monthly TerraClimate data (1958 – 2024) and are mapped with HUC-8 watershed regions in Pennsylvania to identify trends. Panels are: (1) April 2025 forecasted mean runoff, (2) Root Mean Square Error (RMSE) for predicted April 2025 mean runoff, and (3) Historical monthly mean runoff for April (1958 – 2024). <br>
-    <em>Map Author: Dustin Littlefield PCS: NAD 1983 Pennsylvania North (Meters) Source: Watershed boundaries courtesy of the Pennsylvania Department of Environmental Protection (PADEP)</em>
+    <strong>Figure 5.</strong> ArcGIS Forest-Based forecast results for mean monthly streamflow in Pennsylvania. <br> Predictions for April 2025 were modelled from monthly TerraClimate data (1958 – 2024) <br> and are mapped with HUC-8 watershed regions in Pennsylvania to identify trends. Panels are: <br> (1) April 2025 forecasted mean runoff <br> (2) Root Mean Square Error (RMSE) for predicted April 2025 mean runoff <br> (3) Historical monthly mean runoff for April (1958 – 2024). <br>
+    <em>Map Author: Dustin Littlefield PCS: NAD 1983 Pennsylvania North (Meters) <br> Source: Watershed boundaries courtesy of the Pennsylvania Department of Environmental Protection (PADEP)</em>
   </figcaption>
   <img src="Figures/figure_5.jpg" width="400" alt="Unsupervised Classification of Atlanta Metropolis Region 1999 and 2021">
 </figure>
