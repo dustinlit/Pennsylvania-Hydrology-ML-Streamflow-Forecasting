@@ -15,12 +15,11 @@ This project analyzes long‑term hydrologic change across Pennsylvania and buil
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Figure 1.</strong> General watershed regions in Pennsylvania<br>
-    <em>Map Author: Dustin Littlefield PCS: NAD 1983 Pennsylvania North (Meters) Source: Watershed boundaries courtesy of the Pennsylvania Department of Environmental Protection (PADEP)</em> <br>
-
+    <strong>Figure 1.</strong> General watershed regions in Pennsylvania. <br>
+    <em>Map Author: Dustin Littlefield PCS: NAD 1983 Pennsylvania North (Meters) <br> Source: Watershed boundaries courtesy of the Pennsylvania Department of <br> Environmental Protection (PADEP) </em>
   </figcaption>
-  <img src="figure_1.jpg" width="600">
-  </figure>
+  <img src="figure_1.jpg" width="500" alt="General watershed regions in Pennsylvania">
+</figure>
 
 ## Data
 
@@ -73,6 +72,10 @@ This project analyzes long‑term hydrologic change across Pennsylvania and buil
     <strong>Figure 2.</strong> ArcGIS Forest-Based forecast results for mean monthly streamflow in Pennsylvania. Predictions for April 2025 were modelled from monthly TerraClimate data (1958 – 2024) and are mapped with HUC-8 watershed regions in Pennsylvania to identify trends. Panels are: (1) April 2025 forecasted mean runoff, (2) Root Mean Square Error (RMSE) for predicted April 2025 mean runoff, and (3) Historical monthly mean runoff for April (1958 – 2024).<br>
     <em>Map Author: Dustin Littlefield PCS: NAD 1983 Pennsylvania North (Meters) Source: Watershed boundaries courtesy of the Pennsylvania Department of Environmental Protection (PADEP)</em> <br>
 
+  <figure>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;">
+    <strong>Figure 5.</strong> ArcGIS Forest-Based forecast results for mean monthly streamflow in Pennsylvania. <br> Predictions for April 2025 were modelled from monthly TerraClimate data (1958 – 2024) <br> and are mapped with HUC-8 watershed regions in Pennsylvania to identify trends. Panels are: <br> (1) April 2025 forecasted mean runoff <br> (2) Root Mean Square Error (RMSE) for predicted April 2025 mean runoff <br> (3) Historical monthly mean runoff for April (1958 – 2024). <br>
+    <em>Map Author: Dustin Littlefield PCS: NAD 1983 Pennsylvania North (Meters) <br> Source: Watershed boundaries courtesy of the Pennsylvania Department of Environmental Protection (PADEP)</em>
   </figcaption>
-  <img src="figure_5.jpg" width="400">
-  </figure>
+  <img src="figure_5.jpg" width="400" alt="Unsupervised Classification of Atlanta Metropolis Region 1999 and 2021">
+</figure>
